@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>NASA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="website icon" type="svg" href="nasa-logo.svg">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <header>
+        <nav id="abc" class="navbar navbar-expand-md navigation-wrap fixed">
+            <div class="container">
+                <div class="navbar-brand" style="display:flex;justify-content:center"><a href="try1.html"
+                        class="nav-link ">
+                        <img class="rounded-pill centered" src="nasa-logo.svg" height="30px" width="30px"
+                            alt="NASA"></a>
+                </div>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#demo">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="demo" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#">NEWS&EVENTS</a>
+                            <ul class="dropdown-menu" id="a">
+                                <li class="dropdown-item "><a class="item" href="news.html">All NASA News</a></li>
+                                <li class="dropdown-item "><a class="item" href="https://plus.nasa.gov/series/">Video
+                                        Series on NASA+</a></li>
+                                <li class="dropdown-item "><a class="item"
+                                        href="https://www.nasa.gov/podcasts/">Podcast</a></li>
+                                <li class="dropdown-item "><a class="item" href="nasasign.html">Newsletter</a></li>
+                                <li class="dropdown-item "><a class="item"
+                                        href="https://www.nasa.gov/social-media/">Social Media</a></li>
+                                <li class="dropdown-item "><a class="item"
+                                        href="https://www.nasa.gov/news/media-contacts/">Media Resource</a></li>
+                                <li class="dropdown-item "><a class="item" href="news.html">Upcoming
+                                        Launches & Landings</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#">MULTIMEDIA</a>
+                            <ul class="dropdown-menu" id="a">
+                                <li class="dropdown-item "><a class="item" href="https://plus.nasa.gov/">NASA+</a></li>
+                                <li class="dropdown-item "><a class="item"
+                                        href="https://www.nasa.gov/images/">Images</a></li>
+                                <li class="dropdown-item "><a class="item" href="https://www.nasa.gov/nasatv/">NASA
+                                        TV</a></li>
+                                <li class="dropdown-item "><a class="item"
+                                        href="https://www.nasa.gov/audio-and-ringtones/">Sounds and Ringtones</a></li>
+                                <li class="dropdown-item "><a class="item"
+                                        href="https://www.nasa.gov/interactives/">Interactivities</a></li>
+                                <li class="dropdown-item "><a class="item" href="https://www.nasa.gov/apps/">NASA
+                                        Apps</a></li>
+                                <li class="dropdown-item "><a class="item"
+                                        href="https://www.nasa.gov/ebooks/">e-Books</a></li>
+                                <li class="dropdown-item "><a class="item"
+                                        href="https://www.nasa.gov/learning-resources/search/?terms=8058%2C8059%2C8061%2C8062%2C8068">STEM
+                                        Multimedia</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item "><a class="nav-link " href="#data2">NASA+ Live</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#fn">Featured News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ln">Latest News</a>
+                        </li>
+                        <li class="nav-item "><a class="nav-link " href="#sgn">Sign In</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#dmt">Discover More Topics</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+           
+            <div class="row">
+                <div class="col-md-12">
+                    <div style="position: relative;">
+                        <input style="padding: 5px 10px; padding-left: 30px;" type="email" name="search" id="search"
+                            placeholder="Search...">
+                        <img src="search.png" width="20px" height="20px" alt="magnifying glass" class="searchIcon"
+                            style="position: absolute; left: 200px; top: 50%; transform: translateY(-50%);">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <div id="gameCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#gameCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#gameCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#gameCarousel" data-bs-slide-to="2"></li>
+                <li data-bs-target="#gameCarousel" data-bs-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="1-Milky-Way-Map-16.jpg" class="d-block w-100" alt="Hubble">
+                    <div class="carousel-caption">
+                        <h3>2024 Total Solar Eclipse</h3>
+                        <p>On April 8, 2024, a total solar eclipse will cross North America, passing over Mexico, United
+                            States, and Canada.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="car-4i.jpg" class="d-block w-100" alt="JWST">
+                    <div class="carousel-caption">
+                        <h3>James Webb Space Telescope</h3>
+                        <p>Webb launched on Dec. 25th 2021. It does not orbit around the Earth like the Hubble Space
+                            Telescope, it orbits the Sun 1 million miles away from the Earth at L2. </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="light.jpg" class="d-block w-100" alt="Astronaut">
+                    <div class="carousel-caption">
+                        <h3>Artemis</h3>
+                        <p>With the Artemis campaign, NASA will land the first woman and first person of color on the
+                            Moon, using innovative technologies to explore more of the lunar surface than ever before.
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="pia11719orig.jpg" class="d-block w-100" alt="Rover">
+                    <div class="carousel-caption">
+                        <h3>Destinations</h3>
+                        <p>The International Space Station has built the foundation to conduct complex operations in
+                            space, perform research in a microgravity environment, foster a growing space economy.</p>
+                    </div>
+                </div>
+                <!-- Add more carousel items if needed -->
+            </div>
+            <a class="carousel-control-prev" href="#gameCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#gameCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <hr>
+    <div style="height: 55px; " id="fn"></div>
+
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 style="margin-left: 0px;">Featured News</h1>
+            </div>
+            <div class="col-md-6">
+                <h1 align="right"> <a style=" text-decoration:none;color:black;" class="dashedhover"
+                        href="news.html">More NASA News &#10144;</a></h1>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="container1">
+                    <a href="https://www.nasa.gov/missions/osiris-rex/nasas-osiris-rex-mission-awarded-collier-trophy/"><img
+                            class="h" height="400px" width="400px" src="fn-1.webp" alt=""></a>
+                    <div class="newstext"><a class="newsss"
+                            href="https://www.nasa.gov/missions/osiris-rex/nasas-osiris-rex-mission-awarded-collier-trophy/">NASA's
+                            OSIRIS-REx Mission Awarded Collier Trophy</a></div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="container1">
+                    <a
+                        href="https://science.nasa.gov/solar-system/skywatching/nasa-to-launch-sounding-rockets-into-moons-shadow-during-solar-eclipse/"><img
+                            class="h" height="400px" width="400px" src="fn-2.jpg" alt=""></a>
+                    <div class="newstext"><a class="newsss"
+                            href="https://science.nasa.gov/solar-system/skywatching/nasa-to-launch-sounding-rockets-into-moons-shadow-during-solar-eclipse/">NASA
+                            to launch sounding rockets into Moon's Shadow During Solar Eclipse</a></div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="container1">
+                    <a href="https://science.nasa.gov/missions/hubble/hubble-views-a-galaxy-under-pressure/"><img
+                            class="h" height="400px" width="400px" src="fn-3.jpg" alt=""></a>
+                    <div class="newstext"><a class="newsss"
+                            href="https://science.nasa.gov/missions/hubble/hubble-views-a-galaxy-under-pressure/">Hubble
+                            Views a Galaxy Under Pressure</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sout mt-5">
+        <img src="jupiter.jpg" height="700px" width="100%" alt="space-out info image">
+        <div class="sout2 " style="text-align:left;">
+            <h1 style="font-weight: bold; font-size:70px;">Space Out</h1>
+            <p style="font-size: 20px;">Turn on, tune in, and space out to relaxing music and ultra-high-definition
+            </p>
+            <p style="font-size: 20px;"> of the cosmos, from the surface of Mars to a Uranian sunset.</p>
+            <a style="font-size: 20px;" href="" class="sout3 dashedhover1" style="text-decoration: none;">Stream on
+                NASA+ &#8599;</a>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h1 style="font-size: 45px; font-weight:bold;padding-bottom:50px">Image Of The Day</h1>
+                <p style="font-weight: bold; font-size:25px;">CADRE Rovers’ Test Drive in the Mars Yard</p>
+                <p style="font-size: 20px;">Two full-scale development model rovers that are part of NASA’s CADRE
+                    (Cooperative Autonomous Distributed Robotic Exploration) technology demonstration drive in the Mars
+                    Yard at the agency’s Jet Propulsion Laboratory in Southern California in August 2023. The project is
+                    designed to show that a group of robotic spacecraft can work together as a team to accomplish tasks
+                    and record data autonomously – without explicit commands from mission controllers on Earth.</p>
+                <a class="imgd dashedhover" href="https://www.nasa.gov/image-of-the-day/"
+                    style="font-size: 20px; font-weight:bold">Browse Image Archive &#10132;</a>
+            </div>
+            <div class="col-md-8 ">
+                <img width="100%" src="dayimg.webp" alt="Image of the day">
+                <a class="imgd dashedhover" style="font-weight:bold;" href="dayimg.webp">View image &#10132;</a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="sout mt-5">
+        <img src="Milky-Way-Galaxy-and-Central-Bar-Viewed-From-Above.webp" height="700px" width="100%"
+            alt="space-out info image">
+        <div class="sout2 " height="200px" width="200px" style="text-align:left;">
+            <div>
+                <h1 style="font-weight: bold; font-size:70px;">Our Changing Planet</h1>
+                <p style="font-size: 20px;">For more than 50 years, NASA satellites have provided data on Earth's land,
+                    water, air, temperature, and climate. NASA's Earth Information Center allows visitors to see how our
+                    planet is changing in six key areas: sea level rise and coastal impacts, health and air quality,
+                    wildfires, greenhouse gases, sustainable energy, and agriculture.</p>
+                <a style="font-size: 20px;" href="" class="sout3 dashedhover1" style="text-decoration: none;"
+                    class="dashedhover1">Start Exploring
+                    &#8599;</a>
+            </div>
+        </div>
+    </div>
+    <div style="height: 55px; " id="ln"></div>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 style="margin-left: 0px;">Latest News</h1>
+            </div>
+            <div class="col-md-6">
+                <h1 align="right"> <a style=" text-decoration:none;color:black;" class="dashedhover"
+                        href="news.html">More NASA News Releases &#10144;</a></h1>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="container1">
+                    <a
+                        href="https://www.nasa.gov/news-release/nasa-selects-first-lunar-instruments-for-artemis-astronaut-deployment/"><img
+                            class="h" height="400px" width="400px" src="ln-1.webp" alt=""></a>
+                    <div class="newstext"><a class="newsss"
+                            href="https://www.nasa.gov/news-release/nasa-selects-first-lunar-instruments-for-artemis-astronaut-deployment/">NASA
+                            Selects First Lunar Instruments for Artemis Astronout Deployment</a></div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="container1">
+                    <a
+                        href="https://www.nasa.gov/news-release/nasa-remembers-former-nasa-johnson-director-george-w-s-abbey/"><img
+                            class="h" height="400px" width="400px" src="ln-2.webp" alt=""></a>
+                    <div class="newstext"><a class="newsss"
+                            href="https://www.nasa.gov/news-release/nasa-remembers-former-nasa-johnson-director-george-w-s-abbey/">NASA
+                            Remembers Former NASA Johnson Director Georgr W.S.Abbey</a></div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="container1">
+                    <a
+                        href="https://www.nasa.gov/news-release/nasa-astronaut-tracy-dyson-crewmates-safely-en-route-to-space-station/"><img
+                            class="h" height="400px" width="400px" src="ln-3.webp" alt=""></a>
+                    <div class="newstext"><a class="newsss"
+                            href="https://www.nasa.gov/news-release/nasa-astronaut-tracy-dyson-crewmates-safely-en-route-to-space-station/">NASA
+                            Astronaut Tracy Dyson, Crewmates Safely En Route to Space Station</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sout mt-5" id="sgn">
+        <img src="simage.webp" height="700px" width="100%" alt="space-out info image">
+        <div class="sout2 " style="text-align:left;">
+            <h1 style="font-weight: bold; font-size:70px;">Explore the Universe from your Inbox</h1>
+            <p style="font-size: 20px;">Stay up-to-date on the latest news from NASA–from Earth to the Moon, the Solar
+                System and beyond.</p>
+            <a style="font-size: 20px;" href="nasasign.html" class="sout3 dashedhover1" style="text-decoration: none;">Sign Up
+                &#8599;</a>
+        </div>
+    </div>
+    <div style="height: 55px; " id="dmt"></div>
+
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Discover More Topics From NASA</h1>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="container1">
+                    <a href="https://www.nasa.gov/nasa-missions/"><img class="h" height="500px" width="100%"
+                            src="8289a735a0225281cf2a5b8a48d74cfc.jpg" alt=""></a>
+                    <div class="newstext"><a class="newsss" href="https://www.nasa.gov/nasa-missions/">MIssions
+                            &#10144;</a></div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="container1">
+                    <a href="https://www.nasa.gov/humans-in-space/"><img class="h" height="500px" width="100%"
+                            src="d-2.webp" alt=""></a>
+                    <div class="newstext"><a class="newsss" href="https://www.nasa.gov/humans-in-space/">Humans In Space
+                            &#10144;</a></div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="container1">
+                    <a href="https://www.nasa.gov/womens-history-month/"><img class="h" height="500px" width="100%"
+                            src="women1.jpg" alt=""></a>
+                    <div class="newstext"><a class="newsss" href="https://www.nasa.gov/womens-history-month/">Women's
+                            History Month &#10144;</a></div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="container1">
+                    <a href="https://www.nasa.gov/spacefood/"><img class="h" height="500px" width="100%" src="iiii.jpg"
+                            alt=""></a>
+                    <div class="newstext"><a class="newsss" href="https://www.nasa.gov/spacefood/">Value of NASA
+                            &#10144;
+                        </a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="section" id="section">
+        <h2 class="p-2">Here Are Some Images.</h2>
+        <marquee behavior="scroll" direction="left">
+            <div class="section">
+                <img height="300px" width="270px" src="jwst.jpg" alt="">
+                <img height="300px" width="270px" src="i2.jpeg" alt="">
+                <img height="300px" width="270px" src="i3.jpeg" alt="">
+                <img height="300px" width="270px" src="i5.jpeg" alt="">
+                <img height="300px" width="270px" src="i6.jpeg" alt="">
+                <img height="300px" width="270px" src="i4.jpeg" alt="">
+                <img height="300px" width="270px" src="i7.webp" alt="">
+                <img height="300px" width="270px" src="i8.jpeg" alt="">
+                <img height="300px" width="270px" src="i9.jpg" alt="">
+                <img height="300px" width="270px" src="i1.jpeg" alt="">
+                <img height="300px" width="270px" src="i2.jpeg" alt="">
+                <img height="300px" width="270px" src="n6.webp" alt="">
+                <img height="300px" width="270px" src="i1.jpeg" alt="">
+                <img height="300px" width="270px" src="c3.jpg" alt="">
+                <img height="300px" width="270px" src="c4.jpg" alt="">
+                <img height="300px" width="270px" src="c4.webp" alt="">
+                <img height="300px" width="270px" src="d-3.webp" alt="">
+                <img height="300px" width="270px" src="iss069e018537.jpg" alt="">
+                <img height="300px" width="270px" src="n2.webp" alt="">
+            </div>
+        </marquee>
+        <div class="container-fluid">
+            <footer class="footer mt-5">
+                <div class="footer-container">
+                    <div class="footer-section">
+                        <img src="nasa-logo.svg" alt="NASA Logo">
+                        <br>
+                        <h2>The National Aeronautics and Space Administration</h2>
+                        <br>
+                        NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires
+                        the
+                        world
+                        through discovery.
+                    </div>
+                    <div class="footer-section">
+                        <h3><a class="sout3" href="#" class="dashedhover1">NASA Links</a></h3>
+                        <ul>
+                            <li><a class="sout3 dashedhover1" href="#">About NASA</a></li>
+                            <li><a class="sout3 dashedhover1" href="#">Missions</a></li>
+                            <li><a class="sout3 dashedhover1" href="#">News & Events</a></li>
+                            <li><a class="sout3 dashedhover1" href="#">NASA TV</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3><a class="sout3" href="#">Connect</a></h3>
+                        <ul>
+                            <li><a class="sout3 dashedhover1" href="#">Contact Us</a></li>
+                            <li><a class="sout3 dashedhover1" href="#">Social Media</a></li>
+                            <li><a class="sout3 dashedhover1" href="#">Email Updates</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="footer-section">
+                        <h3><a class="sout3" href="#">Legal</a></h3>
+                        <ul>
+                            <li><a class="sout3 dashedhover1" href="#">Privacy Policy</a></li>
+                            <li><a class="sout3 dashedhover1" href="#">Terms of Use</a></li>
+                            <li><a class="sout3 dashedhover1" href="#">Accessibility</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section" style="color: grey;">
+                        Follow NASA
+                        <br>
+                        <div class="social-media-icons">
+                            <br>
+                            <a href="https://twitter.com/NASA" target="_blank"><img src="x.png" alt="Twitter"></a>
+                            <a href="https://instagram.com/NASA" target="_blank"><img src="insta.png"
+                                    alt="instagram"></a>
+                            <a href="https://facebook.com/NASA" target="_blank"><img src="fb.jpeg.jpg"
+                                    alt="Facebook"></a>
+                            <a href="https://youtube.com/NASA" target="_blank"><img src="yt.png" alt="YouTube"></a>
+                        </div>
+                        <br>
+                        More Nasa Accounts
+                        <br>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 style="font-size: 20px; font-weight: bold;">JOIN OUR MAILING LIST</h5>
+                                <input style="padding:5px 10px;" type="email" name="email" id="email"
+                                    placeholder="Enter Email">
+                                <button class="btn btn-dark" style="padding:5px 10px;">Join</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">© 2024 NASA (.gov)</p>
+            </footer>
+        </div>
+</body>
+
+</html>
