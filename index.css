@@ -1,0 +1,261 @@
+.item
+{
+    text-decoration: none;
+    font-size: 25px ;
+    color: black;
+}
+.newsdiv 
+{
+    height: 100px;
+    width: 100px;
+}
+.container1
+{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.newstext
+{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    width: 375px;
+    margin-left: 10px;
+
+    
+}
+.newsss
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px;
+
+}
+.sout
+{
+    position: relative;
+    color: white;
+    text-align: center;
+   
+}
+.sout2
+{
+    position: absolute;
+    bottom: 50px;
+    left: 75px;
+}
+.sout3
+{
+    text-decoration: none;
+    color: white;
+}
+.imgd
+{
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    font-size:25px;
+}
+
+
+  
+  .social-media-icons a:last-child img {
+    margin-right: 0;
+  }
+  
+  .copyright {
+    margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+  }
+  .dashedhover:hover
+  {
+    border-bottom: 2px dashed black;
+  }
+  .dashedhover1:hover
+  {
+    border-bottom: 1px dashed white;
+  }
+  section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0 0;
+  }
+  .carousel-caption
+  {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+  .navigation-wrap {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+    transition: all 0.3s ease-out; /* Add transition property */
+}
+
+.navigation-wrap .nav-item {
+    padding: 0 0.5rem;
+    transition: all 200ms linear;
+}
+
+.navigation-wrap .nav-link {
+    padding-top: 0.9375rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.0625rem;
+    transition: color 0.3s ease; /* Add transition property */
+}
+
+.navigation-wrap .nav-link:hover,
+.navigation-wrap .nav-link.active {
+    color: blue;
+}
+
+ /* Add CSS for responsive design */
+@media only screen and (max-width: 768px) {
+  /* Adjust layout for smaller screens */
+  .footer-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Additional CSS for styling */
+.footer {
+  padding: 50px 0;
+  background-color: black !important;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    align-items: center;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+  transition: opacity 0.3s ease;
+}
+.footer-section:hover {
+  opacity: 0.8;
+}
+
+.footer-section img {
+  width: 100px; /* Adjust the width of the NASA logo */
+  height: auto;
+}
+
+.footer-section h2 {
+  font-size: 20px;
+}
+
+.footer-section h3 {
+  margin-bottom: 5px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.social-media-icons {
+  margin-top: 20px;
+  display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 10px;   */
+}
+
+.social-media-icons img {
+  width: 30px; /* Adjust the width of social media icons */
+  margin-right: 10px;
+    height: 30px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    position: static; /* Remove fixed positioning */
+  }
+}
+
+.navigation-wrap {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+    transition: all 0.3s ease-out; /* Add transition effect */
+}
+
+.navigation-wrap .nav-item {
+    padding: 0 0.5rem;
+    transition: all 200ms linear;
+}
+
+.navigation-wrap .nav-link {
+    padding-top: 0.9375rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.0625rem;
+    transition: color 0.3s ease; /* Add transition effect */
+}
+
+.navigation-wrap .nav-link:hover,
+.navigation-wrap .nav-link.active {
+    color: blue;
+}
+
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden; /* Ensure image does not overflow its container */
+}
+
+.carousel 
+{
+  padding-top: 50px; /* Add padding around the entire carousel */
+}
+
+/* Add padding to the carousel items */
+.carousel-item
+ {
+  padding-top: 20px; /* Add padding to each carousel item */
+}
+
+
+.h {
+  transition: transform 0.3s ease; /* Add transition effect on transform property */
+  
+}
+
+.h:hover {
+  transform: scale(1.1); /* Zoom in by 10% on hover */
+  border: 4px solid blue;
+
+}
+
